@@ -2,13 +2,13 @@ import Image from "next/image";
 import AboutMeComponent from "./about-me-component";
 import PropTypes from "prop-types";
 import styles from "./about-container.module.css";
-import svg1 from "../../public/Vector1.svg";
-import svg2 from "../../public/clarity_license-line.svg";
-import svg3 from "../../publiccarbon_certificate.svg";
-import svg4 from "../../public/Vector.svg";
-import svg5 from "../../public/Vector2.svg";
-import svg6 from "../../public/Frame 522.svg";
-import svg7 from "../../public/Frame 523.svg";
+import svg1 from "../public/Vector1.svg";
+import svg2 from "../public/clarity_license-line.svg";
+import svg3 from "../publiccarbon_certificate.svg";
+import svg4 from ".../public/Vector.svg";
+import svg5 from "../public/Vector2.svg";
+import svg6 from "../public/Frame 522.svg";
+import svg7 from "../public/Frame 523.svg";
 
 const AboutContainer = ({ className = "" }) => {
   return (
