@@ -1,0 +1,66 @@
+.frameChild {
+  width: 4.125rem;
+  height: 2.75rem;
+  position: relative;
+}
+.theGuidanceI {
+  margin: 0;
+  width: 15.313rem;
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.theGuidanceIReceivedHelpedWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-7xs);
+}
+.anonymous {
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.testimonialAuthor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+}
+.testimonialContent,
+.testimonialDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.testimonialDetails {
+  width: 17.563rem;
+  gap: var(--gap-4xl);
+}
+.testimonialContent {
+  height: 19.125rem;
+  width: 19.688rem;
+  box-shadow: 0 8px 44px rgba(0, 0, 0, 0.27);
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+  padding: var(--padding-3xs) var(--padding-mid);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

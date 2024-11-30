@@ -1,0 +1,26 @@
+.lastName {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-lg);
+  background-color: transparent;
+  position: relative;
+  line-height: 1.244rem;
+  color: var(--color-dimgray-100);
+  text-align: left;
+  display: inline-block;
+}
+.lastNameWrapper {
+  width: 20.713rem;
+  border-radius: var(--br-3xs);
+  border: 1.4px solid var(--color-darkgray-200);
+  box-sizing: border-box;
+  height: 3.588rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
+}

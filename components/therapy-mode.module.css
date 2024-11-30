@@ -1,0 +1,193 @@
+.vectorIcon {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  cursor: pointer;
+  left: 5rem;
+}
+.vectorWrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-3xs);
+}
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.selectTherapyModeParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.selectTherapyMode {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.therapyModeOptionsParent {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.therapyModeOption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.optionIcon {
+  border-radius: 0.5rem;
+  width: 100px;
+  height: 100px;
+}
+
+.optionLabel {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.locationDetails {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  color: gray;
+}
+
+.locationIcon {
+  width: 32px;
+  height: 32px;
+}
+
+.address {
+  font-weight: 500;
+}
+
+.filterSection {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.filterButton {
+  padding: 0.5rem 3.5rem;
+  border: none;
+  border-radius: 5rem;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.filterButton1 {
+  padding: 0.5rem 3.5rem;
+  border: none;
+  border-radius: 5rem;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.filterBy {
+  align-self: stretch;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0rem 10rem;
+}
+.selectBy {
+  align-self: stretch;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0rem 10rem;
+}
+.slotSelection {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+.timeSelectionContainer {
+  display: flex;
+  gap: 16px;
+}
+
+.timeSelection {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.timings {
+  color: #7F7F7F;
+  font-size: 0.85rem;
+  padding-bottom: 1rem;
+  font-weight: 600;
+}
+.slotGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+}
+.timeSelection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+.timeSelection :hover {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5rem;
+  background-color: var(--color-deepskyblue);
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+.note {
+  width: 47.688rem;
+  position: relative;
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+  color: var(--color-gray-100);
+  display: inline-block;
+  z-index: 2;
+  padding-bottom: 2rem;
+  margin-left: -20rem;
+}
+.timeSlot {
+  padding: 0.5rem 1rem;
+  border: 2px solid black;
+  border-radius: 5rem;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.timeSlot:hover {
+  background-color: var(--color-deepskyblue);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.active {
+  background-color: var(--color-deepskyblue);
+  color: white;
+  border: none;
+}

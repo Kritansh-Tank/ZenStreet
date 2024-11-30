@@ -1,0 +1,95 @@
+.iamFrom {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 7.063rem;
+}
+
+.jobPoliceIcon {
+  width: 3rem;
+  height: 3rem;
+  display: inline-block;
+}
+
+.maxMustermann {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-7xs);
+}
+
+.region {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.chennaiIndia {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  color: var(--color-dimgray-300);
+}
+.maxMustermannParent {
+  width: 13.188rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.englishHindi,
+.languages {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+}
+.englishHindi {
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.02em;
+  color: var(--color-dimgray-300);
+  padding-top: 0.5rem;
+}
+.playerListHeader {
+  width: 13.188rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.locationLanguageContainer {
+  width: 39.625rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 750px) {
+  .iamFrom {
+    font-size: var(--font-size-lgi);
+  }
+  .chennaiIndia {
+    font-size: var(--font-size-base);
+  }
+  .languages {
+    font-size: var(--font-size-lgi);
+  }
+  .englishHindi {
+    font-size: var(--font-size-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .locationLanguageContainer {
+    flex-wrap: wrap;
+  }
+}

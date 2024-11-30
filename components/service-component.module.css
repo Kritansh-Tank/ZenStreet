@@ -1,0 +1,366 @@
+.therapyIcon {
+  width: 0.994rem;
+  height: 1.625rem;
+  position: relative;
+}
+.therapyTitle {
+  height: 2.188rem;
+  width: 0.994rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+}
+.individualSessions {
+  height: 2.75rem;
+  width: 6.75rem;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.therapyHeader {
+  height: 2.75rem;
+  width: 7.931rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.session {
+  width: 4.375rem;
+  height: 1.188rem;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.individualSessionLabel,
+.therapyDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.individualSessionLabel {
+  height: 1.969rem;
+  width: 4.313rem;
+  flex-direction: column;
+  padding: var(--padding-smi-5) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-500);
+}
+.therapyDetails {
+  width: 12.494rem;
+  height: 2.75rem;
+  flex-direction: row;
+  gap: var(--gap-9xs);
+  flex-shrink: 0;
+}
+.min {
+  height: 0.813rem;
+  width: 2.25rem;
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.individualSessionDurations {
+  height: 1.688rem;
+  width: 3.975rem;
+  border-radius: var(--br-23xl-7);
+  border: 1.8px solid var(--color-gray-700);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs-1) var(--padding-sm-4);
+  cursor: pointer;
+}
+.min1 {
+  height: 0.813rem;
+  width: 2.330rem;
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.individualSessionDurations1 {
+  height: 1.688rem;
+  width: 6.037rem;
+  border-radius: var(--br-23xl-7);
+  border: 1.8px solid var(--color-white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs-1) var(--padding-sm-4);
+  color: var(--color-white);
+  cursor: pointer;
+}
+.min2 {
+  height: 0.813rem;
+  width: 2.25rem;
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.individualSessionDurations2,
+.individualSessionOptions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.individualSessionDurations2 {
+  height: 1.688rem;
+  width: 3.975rem;
+  border-radius: var(--br-23xl-7);
+  border: 1.8px solid var(--color-gray-700);
+  box-sizing: border-box;
+  padding: var(--padding-6xs-1) var(--padding-sm-3) var(--padding-6xs-1)
+    var(--padding-sm-5);
+  cursor: pointer;
+}
+.individualSessionOptions {
+  width: 12.725rem;
+  height: 1.575rem;
+  gap: var(--gap-4xs-6);
+  flex-shrink: 0;
+  font-size: var(--font-size-2xs);
+  color: var(--color-gray-600);
+}
+.therapyContent {
+  height: 5.2rem;
+  width: 12.744rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.therapyContainer {
+  width: 13.938rem;
+  height: 5.2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-lgi-1) 0 0;
+  box-sizing: border-box;
+  z-index: 3;
+}
+.individualTherapy {
+  margin: 0;
+  width: 11.438rem;
+  height: 1.5rem;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.descriptionDividerChild {
+  width: 10.688rem;
+  position: relative;
+  border-top: 1px solid var(--color-gray-800);
+  box-sizing: border-box;
+  height: 0.063rem;
+}
+.descriptionDivider {
+  width: 10.938rem;
+  height: 0.063rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+}
+.descriptionContainer,
+.therapyDescription {
+  height: 2.188rem;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.descriptionContainer {
+  width: 11.375rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-12xs);
+  gap: var(--gap-3xs);
+}
+.therapyDescription {
+  width: 13.188rem;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-10xl) 0 0;
+  z-index: 2;
+}
+.jointEvaluation {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-lgi);
+}
+.jointEvaluation1 {
+  width: 12.25rem;
+  height: 1.063rem;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.communicationExercises {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-lgi);
+}
+.communicationExercises1 {
+  width: 13.25rem;
+  height: 1.063rem;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.conflictResolution {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-lgi);
+}
+.conflictResolution1 {
+  width: 12.25rem;
+  height: 1.063rem;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.goalSetting {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-lgi);
+}
+.goalSetting1 {
+  width: 12.25rem;
+  height: 1.063rem;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.followUpPlan {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-lgi);
+}
+.followUpPlanContainer {
+  width: 12.25rem;
+  height: 1.063rem;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.individualInfo,
+.jointFeaturesContainer,
+.jointOptions {
+  height: 8.313rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.jointFeaturesContainer {
+  width: 12.188rem;
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.individualInfo,
+.jointOptions {
+  width: 15.188rem;
+  flex-direction: row;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+  z-index: 1;
+  font-size: var(--font-size-sm);
+}
+.individualInfo {
+  height: 13.013rem;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-3xs-2);
+  gap: var(--gap-12xl);
+  font-size: var(--font-size-xl);
+}
+.bookSession {
+  height: 1.375rem;
+  width: 4.5rem;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-royalblue-300);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.bookButtonContainer,
+.booking,
+.therapyContainerParent {
+  height: 3.125rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.bookButtonContainer {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-48xl-5);
+  background-color: var(--color-white);
+  width: 12.875rem;
+  border-radius: var(--br-61xl);
+  justify-content: flex-start;
+}
+.booking,
+.therapyContainerParent {
+  width: 14rem;
+  justify-content: flex-end;
+  padding: 0 var(--padding-lg) 0 0;
+  z-index: 2;
+}
+.therapyContainerParent {
+  height: 29.563rem;
+  width: 22.5rem;
+  border-radius: var(--br-sm);
+  background: linear-gradient(195.71deg, #0093fe, #005cb0);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) var(--padding-40xl) var(--padding-10xl)
+    var(--padding-39xl);
+  gap: var(--gap-20xl-8);
+  z-index: 3;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

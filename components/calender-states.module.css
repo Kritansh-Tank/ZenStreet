@@ -1,0 +1,1207 @@
+.selectSlots {
+  align-self: stretch;
+  position: relative;
+  line-height: 1.544rem;
+  font-weight: 500;
+}
+
+.am,
+.morning {
+  position: relative;
+  font-weight: 600;
+}
+
+.morning {
+  align-self: stretch;
+}
+
+.am {
+  letter-spacing: -0.02em;
+}
+
+.amWrapper {
+  border-radius: var(--br-92xl-7);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  height: 2.994rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-smi-4) var(--padding-lgi-9);
+}
+
+.am1 {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+}
+
+.amContainer {
+  cursor: pointer;
+  border: 2px solid var(--color-black);
+  padding: var(--padding-smi-4) var(--padding-lgi-9);
+  background-color: transparent;
+  height: 2.994rem;
+  border-radius: var(--br-92xl-7);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.am2 {
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+
+.amFrame {
+  border-radius: var(--br-92xl-7);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  height: 2.994rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-smi-4) var(--padding-lgi-9);
+}
+
+.am3 {
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+
+.frameDiv {
+  border-radius: var(--br-92xl-7);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  height: 2.994rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-smi-4) var(--padding-lgi-9);
+}
+
+.frameParent,
+.timeOfDayNames {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 1.625rem 1.5rem;
+  color: var(--color-black);
+}
+
+.timeOfDayNames {
+  width: 22.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+}
+
+.afternoon,
+.pm {
+  position: relative;
+  font-weight: 600;
+}
+
+.afternoon {
+  align-self: stretch;
+}
+
+.pm {
+  letter-spacing: -0.02em;
+}
+
+.pmWrapper {
+  border-radius: var(--br-92xl-7);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  height: 2.994rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-smi-4) var(--padding-lgi-9);
+}
+
+.pm1 {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+}
+
+.pmContainer {
+  cursor: pointer;
+  border: 2px solid var(--color-black);
+  padding: var(--padding-smi-4) var(--padding-lgi-9);
+  background-color: transparent;
+  height: 2.994rem;
+  border-radius: var(--br-92xl-7);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.pm2 {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+}
+
+.pmFrame {
+  cursor: pointer;
+  border: 2px solid var(--color-black);
+  padding: var(--padding-smi-4) var(--padding-lgi-9);
+  background-color: transparent;
+  height: 2.994rem;
+  border-radius: var(--br-92xl-7);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.pm3 {
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+
+.pmWrapper1 {
+  border-radius: var(--br-92xl-7);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  height: 2.994rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-smi-4) var(--padding-lgi-9);
+}
+
+.frameGroup,
+.timeOfDayNames1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 1.625rem 1.5rem;
+  color: var(--color-black);
+}
+
+.timeOfDayNames1 {
+  height: 10.563rem;
+  width: 22.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+}
+
+.evening,
+.pm4 {
+  position: relative;
+  font-weight: 600;
+}
+
+.evening {
+  align-self: stretch;
+}
+
+.pm4 {
+  font-size: var(--font-size-base);
+  letter-spacing: -0.02em;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+}
+
+.frameButton {
+  cursor: pointer;
+  border: 2px solid var(--color-black);
+  padding: var(--padding-smi-4) var(--padding-lgi-9);
+  background-color: transparent;
+  height: 2.994rem;
+  border-radius: var(--br-92xl-7);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.pm5 {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+}
+
+.pmWrapper2 {
+  cursor: pointer;
+  border: 2px solid var(--color-black);
+  padding: var(--padding-smi-4) var(--padding-lgi-9);
+  background-color: transparent;
+  height: 2.994rem;
+  border-radius: var(--br-92xl-7);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.pm6 {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+}
+
+.pmWrapper3 {
+  cursor: pointer;
+  border: 2px solid var(--color-black);
+  padding: var(--padding-smi-4) var(--padding-lgi-9);
+  background-color: transparent;
+  height: 2.994rem;
+  border-radius: var(--br-92xl-7);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.pm7 {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+}
+
+.frameContainer,
+.pmWrapper4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pmWrapper4 {
+  cursor: pointer;
+  border: 2px solid var(--color-black);
+  padding: var(--padding-smi-4) var(--padding-lgi-9);
+  background-color: transparent;
+  height: 2.994rem;
+  border-radius: var(--br-92xl-7);
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.frameContainer {
+  align-self: stretch;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 1.625rem 1.5rem;
+}
+
+.timeOfDayNames2 {
+  width: 22.5rem;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+
+.selectSlotsParent,
+.timeOfDayNames2,
+.timeOfDayNamesParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.timeOfDayNamesParent {
+  flex-direction: row;
+  gap: var(--gap-17xl);
+  font-size: var(--font-size-base);
+  color: var(--color-gray-1000);
+  font-family: var(--font-inter);
+}
+
+.selectSlotsParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-35xl);
+  z-index: 0;
+}
+
+.mdichevronUpIcon {
+  width: 3.206rem;
+  position: relative;
+  height: 3.206rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.aug {
+  position: relative;
+  letter-spacing: -0.55px;
+  line-height: 2.244rem;
+  font-weight: 500;
+}
+
+.mdichevronUpIcon1 {
+  height: 3.206rem;
+  width: 3.206rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.mdichevronUpParent {
+  position: absolute;
+  top: 2.563rem;
+  left: 44.356rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mid-1);
+}
+
+.availableDate {
+  position: relative;
+  letter-spacing: -0.55px;
+  line-height: 2.244rem;
+  font-weight: 500;
+}
+
+.frameChild {
+  width: 1.281rem;
+  position: relative;
+  border-radius: var(--br-7xs-1);
+  background-color: var(--color-cornflowerblue-100);
+  height: 1.281rem;
+}
+
+.availableDateParent {
+  position: absolute;
+  top: 3.1rem;
+  left: 4.169rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs-4);
+  gap: var(--gap-sm-7);
+}
+
+.mon {
+  position: relative;
+  letter-spacing: -0.55px;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+
+.weekDayNames {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-mid-1);
+  font-size: var(--font-size-xl);
+  font-family: var(--font-poppins);
+}
+
+.div,
+.div1,
+.div2,
+.div3,
+.div4 {
+  align-self: stretch;
+  position: relative;
+  line-height: 2rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.div {
+  opacity: 0.4;
+}
+
+.div1,
+.div2,
+.div3,
+.div4 {
+  color: var(--color-darkgray-100);
+}
+
+.div2 {
+  cursor: pointer;
+  width: 50%;
+  margin-left: 1.5rem;
+}
+
+.div2:hover {
+  background-color: var(--color-deepskyblue);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.div4 {
+  cursor: pointer;
+  width: 50%;
+  margin-left: 1.5rem;
+}
+
+.div4:hover {
+  background-color: var(--color-deepskyblue);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.div2,
+.div3,
+.div4 {
+  color: var(--color-cornflowerblue-200);
+}
+
+.div3,
+.div4 {
+  color: var(--color-darkgray-100);
+}
+
+.div4 {
+  color: var(--color-cornflowerblue-200);
+}
+
+.weekDayNamesParent {
+  width: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+  color: var(--color-black);
+}
+
+.tue {
+  position: relative;
+  letter-spacing: -0.55px;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+
+.tueWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-mid-1);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+
+.div5 {
+  color: var(--color-darkgray-300);
+}
+
+.div5,
+.div6 {
+  align-self: stretch;
+  position: relative;
+  line-height: 2rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.div7 {
+  color: var(--color-cornflowerblue-200);
+}
+
+.div7 {
+  cursor: pointer;
+  width: 50%;
+  margin-left: 1.5rem;
+}
+
+.div7:hover {
+  background-color: var(--color-deepskyblue);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.div9 {
+  cursor: pointer;
+  width: 50%;
+  margin-left: 1.5rem;
+}
+
+.div9:hover {
+  background-color: var(--color-deepskyblue);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 600;
+}
+.div10 {
+  cursor: pointer;
+  width: 50%;
+  margin-left: 1.5rem;
+}
+
+.div10:hover {
+  background-color: var(--color-deepskyblue);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.div12 {
+  cursor: pointer;
+  width: 50%;
+  margin-left: 1.5rem;
+}
+
+.div12:hover {
+  background-color: var(--color-deepskyblue);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 600;
+}
+.div13 {
+  cursor: pointer;
+  width: 50%;
+  margin-left: 1.5rem;
+}
+
+.div13:hover {
+  background-color: var(--color-deepskyblue);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 600;
+}
+.div16 {
+  cursor: pointer;
+  width: 50%;
+  margin-left: 1.5rem;
+}
+
+.div16:hover {
+  background-color: var(--color-deepskyblue);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 600;
+}
+.div17 {
+  cursor: pointer;
+  width: 50%;
+  margin-left: 1.5rem;
+}
+
+.div17:hover {
+  background-color: var(--color-deepskyblue);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 600;
+}
+.div22 {
+  cursor: pointer;
+  width: 50%;
+  margin-left: 1.5rem;
+}
+
+.div22:hover {
+  background-color: var(--color-deepskyblue);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 600;
+}
+.div23 {
+  cursor: pointer;
+  width: 50%;
+  margin-left: 1.5rem;
+}
+
+.div23:hover {
+  background-color: var(--color-deepskyblue);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 600;
+}
+.div25 {
+  cursor: pointer;
+  width: 50%;
+  margin-left: 1.5rem;
+}
+
+.div25:hover {
+  background-color: var(--color-deepskyblue);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 600;
+}
+.div26 {
+  cursor: pointer;
+  width: 50%;
+  margin-left: 1.5rem;
+}
+
+.div26:hover {
+  background-color: var(--color-deepskyblue);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 600;
+}
+.div27 {
+  cursor: pointer;
+  width: 50%;
+  margin-left: 1.5rem;
+}
+
+.div27:hover {
+  background-color: var(--color-deepskyblue);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 600;
+}
+.div28 {
+  cursor: pointer;
+  width: 50%;
+  margin-left: 1.5rem;
+}
+
+.div28:hover {
+  background-color: var(--color-deepskyblue);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 600;
+}
+.div7,
+.div8,
+.div9 {
+  align-self: stretch;
+  position: relative;
+  line-height: 2rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.div9 {
+  color: var(--color-cornflowerblue-200);
+}
+
+.frameParent1 {
+  width: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+
+.wed {
+  position: relative;
+  letter-spacing: -0.55px;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+
+.wedWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-mid-1);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+
+.div10 {
+  color: var(--color-cornflowerblue-100);
+}
+
+.div10,
+.div11 {
+  align-self: stretch;
+  position: relative;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+.div10,
+.div11,
+.div12,
+.div13,
+.div14 {
+  cursor: pointer;
+}
+
+.div12,
+.div13 {
+  color: var(--color-cornflowerblue-200);
+}
+
+.div12,
+.div13,
+.div14 {
+  align-self: stretch;
+  position: relative;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+.frameParent2 {
+  width: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+
+.thu {
+  position: relative;
+  letter-spacing: -0.55px;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+
+.thuWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-mid-1);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+
+.div15 {
+  align-self: stretch;
+  position: relative;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+.div16,
+.div17 {
+  color: var(--color-cornflowerblue-200);
+}
+
+.div16,
+.div17,
+.div18,
+.div19 {
+  align-self: stretch;
+  position: relative;
+  line-height: 2rem;
+  font-weight: 500;
+}
+.div15,
+.div16,
+.div17,
+.div18,
+.div19 {
+  cursor: pointer;
+}
+.div20,
+.div21,
+.div22,
+.div23,
+.div24 {
+  cursor: pointer;
+}
+.div25,
+.div26,
+.div27,
+.div28,
+.div29 {
+  cursor: pointer;
+}
+.frameParent3 {
+  width: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+
+.fri {
+  position: relative;
+  letter-spacing: -0.55px;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+
+.friWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-mid-1);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+
+.div20,
+.div21 {
+  align-self: stretch;
+  position: relative;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+.div22,
+.div23 {
+  color: var(--color-cornflowerblue-200);
+}
+
+.div22,
+.div23,
+.div24 {
+  align-self: stretch;
+  position: relative;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+.frameParent4 {
+  width: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+
+.sat {
+  position: relative;
+  letter-spacing: -0.55px;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+
+.satWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-mid-1);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+
+.div25,
+.div26,
+.div27,
+.div28,
+.div29 {
+  align-self: stretch;
+  position: relative;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+.div29 {
+  color: var(--color-darkgray-100);
+}
+
+.frameParent5 {
+  width: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+  color: var(--color-cornflowerblue-200);
+}
+
+.sun {
+  position: relative;
+  letter-spacing: -0.55px;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+
+.sunWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-mid-1);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+
+.div30,
+.div31,
+.div32,
+.div33,
+.div34 {
+  align-self: stretch;
+  position: relative;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+.div30 {
+  cursor: pointer;
+  width: 50%;
+  margin-left: 1.5rem;
+}
+
+.div30:hover {
+  background-color: var(--color-deepskyblue);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.active {
+  background-color: var(--color-deepskyblue);
+  color: white;
+  border: none;
+  border-radius: 50%;
+}
+
+.div31 {
+  cursor: pointer;
+  width: 50%;
+  margin-left: 1.5rem;
+}
+
+.div31:hover {
+  background-color: var(--color-deepskyblue);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.div32 {
+  cursor: pointer;
+  width: 50%;
+  margin-left: 1.5rem;
+}
+
+.div32:hover {
+  background-color: var(--color-deepskyblue);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.div33 {
+  cursor: pointer;
+  width: 50%;
+  margin-left: 1.5rem;
+}
+
+.div33:hover {
+  background-color: var(--color-deepskyblue);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.div34 {
+  color: var(--color-darkgray-100);
+  cursor: pointer;
+}
+
+.frameParent6 {
+  width: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+  color: var(--color-cornflowerblue-200);
+}
+
+.dateComponent {
+  position: absolute;
+  top: calc(50% - 139px);
+  left: calc(50% - 442.2px);
+  width: 56.563rem;
+  height: 24.813rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-15xl);
+  color: var(--color-darkgray-100);
+  font-family: var(--font-inter);
+}
+
+.calenderComponent {
+  width: 64.025rem;
+  position: relative;
+  box-shadow: 0 13.7px 59.9px rgba(0, 0, 0, 0.2);
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  height: 36.875rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  opacity: 0.5;
+  z-index: 1;
+  text-align: center;
+}
+
+.iPleaseSelect {
+  width: 45.688rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 16.625rem;
+  left: 0.5rem;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.01em;
+  font-weight: 500;
+  color: var(--color-gray-100);
+  display: inline-block;
+  z-index: 2;
+}
+
+.frameParent7 {
+  align-self: stretch;
+  height: 58.875rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-85xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+
+.proceed {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 2rem;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 6.313rem;
+}
+
+.proceedWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) 15.5rem var(--padding-xl) 15.562rem;
+  background-color: #b7b7b7;
+  flex: 1;
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.proceedWrapper:hover {
+  background-color: var(--color-deepskyblue);
+}

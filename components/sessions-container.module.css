@@ -1,0 +1,22 @@
+.sessionsContainer,
+.sessionsGrid {
+  height: 29.563rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sessionsGrid {
+  width: 72rem;
+  gap: var(--gap-17xl);
+}
+.sessionsContainer {
+  width: 77.625rem;
+  padding: 0 0 0 var(--padding-71xl);
+  box-sizing: border-box;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

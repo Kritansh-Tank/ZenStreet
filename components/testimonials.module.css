@@ -1,0 +1,73 @@
+.clientTestimonials,
+.showMore {
+  position: relative;
+  font-weight: 500;
+}
+.clientTestimonials {
+  letter-spacing: -0.01em;
+}
+.showMore {
+  text-decoration: none;
+  color: inherit;
+}
+.mdichevronUpIcon {
+  width: 1.625rem;
+  position: relative;
+  height: 1.625rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.showMoreButton,
+.testimonialHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.showMoreButton {
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-100);
+  cursor: pointer;
+}
+.testimonialHeader {
+  align-self: stretch;
+  justify-content: space-between;
+}
+.testimonialItem {
+  height: 19.125rem;
+}
+.testimonialItem,
+.testimonialItem1,
+.testimonialItem2,
+.testimonialItem3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.component43,
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-19xl);
+}
+.component43 {
+  width: 42.375rem;
+  height: 20.938rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.testimonials {
+  width: 46.375rem;
+  height: 25.563rem;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

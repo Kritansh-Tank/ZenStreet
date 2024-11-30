@@ -1,0 +1,411 @@
+.vectorIcon {
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  filter: invert(1); 
+}
+.nameEntry,
+.structure {
+  display: flex;
+  justify-content: flex-start;
+}
+.structure {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-3xs);
+}
+.nameEntry {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: var(--gap-21xl);
+}
+.mdichevronUpIcon,
+.twemojiflagIndiaIcon {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mdichevronUpIcon {
+  object-fit: contain;
+}
+.countryIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.312rem;
+}
+.blankSpace {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-lg);
+  background-color: transparent;
+  position: relative;
+  line-height: 1.244rem;
+  color: var(--color-dimgray-100);
+  text-align: left;
+  display: inline-block;
+}
+.countryCode {
+  border-radius: var(--br-3xs);
+  border: 1.4px solid var(--color-darkgray-200);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 23.812rem var(--padding-sm) var(--padding-5xl);
+  gap: var(--gap-4xs);
+  min-height: 3.563rem;
+  max-width: 128%;
+}
+.i,
+.youWillReceive {
+  font-weight: 500;
+}
+.iYouWillContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 1.244rem;
+  color: #868686;
+}
+.contactDetails,
+.nameInputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contactDetails {
+  align-self: stretch;
+  gap: var(--gap-xs);
+  flex-shrink: 0;
+}
+.nameInputs {
+  width: 39.938rem;
+  gap: var(--gap-7xl);
+}
+.haveYouBeen {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+}
+.partnerInputChild {
+  appearance: none; /* Remove default checkbox styling */
+  height: 1.313rem;
+  width: 1.313rem;
+  border-radius: 2px;
+  background-color: #1F9FE6;
+  border: 1px solid white;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+
+.partnerInputChild::after {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 6px;
+  width: 0.4rem;
+  height: 0.8rem;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  display: none;
+}
+.partnerInputChild:checked {
+  background-color: #1F9FE6;
+  border: 1px solid white;
+}
+.partnerInputChild:checked::after {
+  display: block;
+}
+.yesIAm {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 7.938rem;
+}
+.partnerInput {
+  flex: 1;
+  border-radius: 8px;
+  background-color: var(--color-deepskyblue);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-2xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  min-width: 10.938rem;
+}
+.partneringCompanyName {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.01em;
+}
+.companyNameInput {
+  height: 3.575rem;
+  width: 11.825rem;
+  border-radius: 6px;
+  border: 1.2px solid #2371e7;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xs) var(--padding-xs);
+  font-size: var(--font-size-sm);
+  color: #9c9c9c;
+}
+.companyDetails,
+.referral {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.companyDetails {
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-112xl) 0 0;
+  gap: var(--gap-15xl);
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.referral {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--font-size-3xl);
+}
+.nameField {
+  gap: 2.625rem;
+}
+.nameField,
+.userFields {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.bookSession {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.bookButton {
+  cursor: pointer;
+  border: 0;
+  padding: 1.343rem 15rem;
+  background-color: #b7b7b7;
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.bookButton:hover {
+  background-color: var(--color-deepskyblue);
+}
+.userForm {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5.687rem;
+  max-width: 100%;
+  height: 100%;
+}
+.verify {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 4rem;
+}
+.verification {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-11xl) var(--padding-smi)
+    var(--padding-12xl);
+  background-color: var(--color-deepskyblue);
+  position: absolute;
+  top: 21.75rem;
+  left: 31.313rem;
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 2;
+}
+.verification:hover {
+  background-color: var(--color-steelblue-100);
+}
+.userFormParent {
+  align-self: stretch;
+  height: 35.25rem;
+  position: relative;
+  max-width: 100%;
+}
+.bookingConfirmation1,
+.structure1,
+.structure2 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.structure2 {
+  align-self: stretch;
+  box-shadow: 0 8px 28.3px rgba(0, 0, 0, 0.25);
+  border-radius: 28px;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 7.687rem 15.437rem;
+  gap: 3.187rem;
+  max-width: 100%;
+}
+.bookingConfirmation1,
+.structure1 {
+  align-items: flex-start;
+}
+.structure1 {
+  width: 54.625rem;
+  flex-direction: column;
+  padding: var(--padding-3xs) 0 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.bookingConfirmation1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-38xl) var(--padding-35xl) 4.75rem;
+  gap: 12.25rem;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .bookingConfirmation1 {
+    gap: 6.125rem;
+    flex-wrap: wrap;
+    padding-left: var(--padding-8xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .countryCode {
+    flex-wrap: wrap;
+  }
+  .userFormParent {
+    height: auto;
+    min-height: 564;
+  }
+  .structure2 {
+    padding-left: var(--padding-42xl);
+    padding-right: var(--padding-42xl);
+    padding-bottom: 10.063rem;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .nameEntry {
+    gap: var(--gap-xl);
+  }
+  .countryCode {
+    padding-right: 11.875rem;
+    box-sizing: border-box;
+  }
+  .companyDetails {
+    gap: var(--gap-mid);
+    flex-wrap: wrap;
+    padding-right: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+  .nameField,
+  .userFields {
+    gap: var(--gap-2xl);
+  }
+  .userForm {
+    gap: 2.813rem;
+  }
+  .structure2 {
+    padding-bottom: var(--padding-86xl);
+    box-sizing: border-box;
+  }
+  .bookingConfirmation1 {
+    gap: 3.063rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .countryCode {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .haveYouBeen {
+    font-size: var(--font-size-lg);
+  }
+  .partnerInput {
+    flex-wrap: wrap;
+  }
+  .companyDetails {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .bookSession {
+    font-size: var(--font-size-lg);
+  }
+  .bookButton {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .userForm {
+    gap: var(--gap-4xl);
+  }
+  .structure2 {
+    gap: var(--gap-6xl);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .bookingConfirmation1 {
+    gap: var(--gap-5xl);
+  }
+}

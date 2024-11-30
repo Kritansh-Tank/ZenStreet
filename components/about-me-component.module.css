@@ -1,0 +1,87 @@
+.helloImSwetha {
+  width: 44rem;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 1.75rem;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 0;
+  text-align: justify;
+}
+.popupOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.popupContent {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.showLess {
+  margin-top: 20px;
+  cursor: pointer;
+  color: var(--color-royalblue-400);
+  text-decoration: underline;
+  font-size: var(--font-size-base);
+}
+.helloImSwethaMore {
+  text-align: left;
+}
+.loremIpsumDolor,
+.readMore {
+  letter-spacing: -0.01em;
+  line-height: 1.375rem;
+  font-weight: 500;
+  display: inline-block;
+}
+.loremIpsumDolor {
+  width: 41.5rem;
+  position: relative;
+  color: var(--color-black);
+  flex-shrink: 0;
+  z-index: 1;
+}
+.readMore {
+  width: 5.125rem;
+  height: 1.375rem;
+  position: absolute;
+  margin: 0 !important;
+  right: -0.062rem;
+  bottom: 0.875rem;
+  font-size: var(--font-size-base);
+  text-decoration: underline;
+  color: var(--color-royalblue-400);
+  z-index: 2;
+  cursor: pointer;
+}
+.aboutMeComponent {
+  width: 44rem;
+  height: 7.688rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-2xs);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-3xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-inter);
+}
