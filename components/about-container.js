@@ -114,7 +114,7 @@ const AboutContainer = ({ className = "" }) => {
               width={102}
               height={102}
               alt=""
-              src=/Frame 523.svg
+              src="/Frame 523.svg"
             />
             <div className={styles.videoVoiceCall}>Video/ Voice call</div>
           </div>
