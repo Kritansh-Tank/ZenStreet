@@ -2,13 +2,6 @@ import Image from "next/image";
 import AboutMeComponent from "./about-me-component";
 import PropTypes from "prop-types";
 import styles from "./about-container.module.css";
-import svg1 from "../public/Vector1.svg";
-import svg2 from "../public/clarity_license-line.svg";
-import svg3 from "../public/carbon_certificate.svg";
-import svg4 from "../public/Vector.svg";
-import svg5 from "../public/Vector2.svg";
-import svg6 from "../public/Frame 522.svg";
-import svg7 from "../public/Frame 523.svg";
 
 const AboutContainer = ({ className = "" }) => {
   return (
@@ -27,7 +20,7 @@ const AboutContainer = ({ className = "" }) => {
               width={24}
               height={20}
               alt=""
-              src={svg1}
+              src="/Vector1.svg"
             />
             <div className={styles.phdInClinical}>
               Ph.D. in Clinical Psychology - Harvard University
@@ -40,7 +33,7 @@ const AboutContainer = ({ className = "" }) => {
               width={24}
               height={20}
               alt=""
-              src={svg1}
+              src="/Vector1.svg"
             />
             <div className={styles.maInCounseling}>
               M.A. in Counseling - University of California, Berkeley
@@ -53,7 +46,7 @@ const AboutContainer = ({ className = "" }) => {
               width={26}
               height={26}
               alt=""
-              src={svg2}
+              src="/clarity_license-line.svg"
             />
             <div className={styles.licensedProfessionalCounselo}>
               Licensed Professional Counselor (LPC) - State of DEF
@@ -66,7 +59,7 @@ const AboutContainer = ({ className = "" }) => {
               width={25}
               height={25}
               alt=""
-              src={svg3}
+              src="/carbon_certificate.svg"
             />
             <div className={styles.certifiedCognitiveBehavioral}>
               Certified Cognitive Behavioral Therapist (CBT)
@@ -79,7 +72,7 @@ const AboutContainer = ({ className = "" }) => {
               width={22}
               height={17}
               alt=""
-              src={svg4}
+              src="/Vector.svg"
             />
             <div className={styles.memberAmericanPsychological}>
               Member, American Psychological Association (APA)
@@ -92,7 +85,7 @@ const AboutContainer = ({ className = "" }) => {
               width={22}
               height={17}
               alt=""
-              src={svg5}
+              src="/Vector2.svg"
             />
             <div className={styles.yearsOfExperience}>
               10+ years of experience in individual and group therapy
@@ -110,7 +103,7 @@ const AboutContainer = ({ className = "" }) => {
               width={102}
               height={102}
               alt=""
-              src={svg6}
+              src="/Frame 522.svg"
             />
             <div className={styles.inPerson}>{`In-person `}</div>
           </div>
@@ -121,7 +114,7 @@ const AboutContainer = ({ className = "" }) => {
               width={102}
               height={102}
               alt=""
-              src={svg7}
+              src=/Frame 523.svg
             />
             <div className={styles.videoVoiceCall}>Video/ Voice call</div>
           </div>
