@@ -107,5 +107,6 @@ Next.js, CSS, JavaScript, Netlify for hosting
 ## Future Enhancements
 
 1. Payment Gateway
-2. Rescheduling or Cancellation
-3. Post-Session Feedback
+2. Advanced Filtering
+3. Rescheduling or Cancellation
+4. Post-Session Feedback
