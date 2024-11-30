@@ -77,9 +77,11 @@ c) Location details for in-person sessions.
 
 ![Description of Image](https://drive.google.com/uc?id=1ZKdsfZFZSQSRvT6YMXMv_bXniAZ378QY)
 
+
 2. Package Selection Page
 
 ![Description of Image](https://drive.google.com/uc?id=1DHBhSjgqx1oxzZ-A27gaGJW26BETnzvc)
+
 
 3. Slot Selection Page
 
@@ -87,14 +89,23 @@ c) Location details for in-person sessions.
 
 ![Description of Image](https://drive.google.com/uc?id=1J5Od6k_6GfzxQ-4ayaJYYNHx9KHyjdyp)
 
+
 4. Booking Form
 
 ![Description of Image](https://drive.google.com/uc?id=12iEdsNN6crRpkytx9bYD2fNqnJgyb0Mm)
+
 
 5. Confirmation Page
 
 ![Description of Image](https://drive.google.com/uc?id=1ywh-iJvvzCdOr9dMUR-gqOxMSm2GzB7v)
 
+
 ## Tech Stack Used
 
-Next.js, CSS, JavaScript, Netlify
+Next.js, CSS, JavaScript, Netlify for hosting
+
+## Future Enhancements
+
+1. Payment Gateway
+2. Rescheduling or Cancellation
+3. Post-Session Feedback
