@@ -4,7 +4,7 @@
 
 The Book a Session feature enables clients to easily schedule therapy sessions through a therapist’s Zenstreet portfolio page. This functionality provides a streamlined experience, allowing clients to view session packages, durations, pricing, and available employer-provided coverage. From package selection to slot choice and payment, the booking process is designed to cater to individual client needs while maintaining convenience.
 
-## How It Works
+## How It Works (Step-by-Step Workflow)
 1. Initiate Booking
 
 - Navigate to the therapist’s Zenstreet portfolio and select the Book a Session option.
@@ -49,3 +49,30 @@ c) Location details for in-person sessions.
 
 - For online sessions, join via the Zenstreet-provided meeting link.
 - After the session, rate the experience and provide feedback through the follow-up email.
+
+## Implementation Details (Pages and Functionalities)
+1. Therapist Portfolio Page
+
+- Displays session packages, durations, pricing, and employer coverage information.
+
+2. Slot Selection Page
+
+- Filters slots by date and time.
+- Allows clients to choose between call, video, or in-person sessions.
+- Displays location details for in-person sessions.
+
+3. Booking Form
+
+- Collects client details.
+- Provides an input field for employer-provided codes.
+- Adjusts pricing dynamically based on entered codes.
+
+4. Confirmation Page
+
+- Displays finalized booking details.
+- Sends confirmation and reminder emails.
+
+## Output
+1. Therapist Portfolio Page
+![Alt Text]([https://example.com/path-to-image.jpg](https://drive.google.com/file/d/1ZKdsfZFZSQSRvT6YMXMv_bXniAZ378QY/view?usp=drive_link))
+
