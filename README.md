@@ -74,5 +74,6 @@ c) Location details for in-person sessions.
 
 ## Output
 1. Therapist Portfolio Page
-![Alt Text]([https://example.com/path-to-image.jpg](https://drive.google.com/file/d/1ZKdsfZFZSQSRvT6YMXMv_bXniAZ378QY/view?usp=drive_link))
+![Description of Image](https://drive.google.com/uc?id=1ZKdsfZFZSQSRvT6YMXMv_bXniAZ378QY)
+
 
